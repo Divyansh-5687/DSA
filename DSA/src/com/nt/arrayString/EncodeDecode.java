@@ -2,7 +2,7 @@ package com.nt.arrayString;
 
 import java.util.*;
 
- class Codec{
+ class Code{
 	
 	public String encode (List<String>strs) {
 		if(strs.size()==0) {
@@ -29,7 +29,7 @@ import java.util.*;
 
 public class EncodeDecode {
 	public static void main(String[] args) {
-        Codec c = new Codec();
+        Code c = new Code();
 
         // Example input
         List<String> strs = Arrays.asList("hello", "world", "java", "encode/decode");
