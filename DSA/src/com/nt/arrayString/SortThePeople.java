@@ -2,7 +2,7 @@ package com.nt.arrayString;
 
 import java.util.*;
 
-class Solution {
+class Solute{
     public String[] sortPeople(String[] names, int[] heights) {
         int n = names.length;
         
@@ -27,7 +27,7 @@ class Solution {
 
 public class SortThePeople{
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solute sol = new Solute();
 
         String[] names1 = {"Mary","John","Emma"};
         int[] heights1 = {180,165,170};
