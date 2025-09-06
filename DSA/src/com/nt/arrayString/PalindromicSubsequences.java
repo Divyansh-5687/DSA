@@ -2,7 +2,7 @@ package com.nt.arrayString;
 
 import java.util.*;
 
-class Palindrome {
+class Palindrom{
     public int maxProduct(String s) {
         int n = s.length();
         int totalMasks = 1 << n;
@@ -48,7 +48,7 @@ class Palindrome {
 
 public class PalindromicSubsequences {
 	public static void main(String[] args) {
-        Palindrome sol = new Palindrome();
+        Palindrom sol = new Palindrom();
 
         String s1 = "leetcodecom";
         System.out.println("Input: " + s1);
